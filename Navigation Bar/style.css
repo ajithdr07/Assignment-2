@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 20px 10px;
+    background-color: rgb(108, 160, 177);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 6px 20px rgb(211, 207, 207);
+}
+
+h1 {
+    color: white;
+}
+
+.nav-links-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-links-list a {
+    text-decoration: none;
+    color: white;
+}
